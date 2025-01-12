@@ -76,7 +76,7 @@ function takeCommand(message) {
   } else if (message.includes("buka spotify")) {
     window.open("https://open.spotify.com/", "_blank");
     speak("Membuka Spotify...");
-  } else if (message.includes("buka tiktok")) {
+  } else if (message.includes("buka tik tok")) {
     window.open("https://www.tiktok.com/", "_blank");
     speak("Membuka Tiktok...");
   } else if (
