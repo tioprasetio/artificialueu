@@ -70,7 +70,7 @@ function takeCommand(message) {
   } else if (message.includes("buka whatsapp")) {
     window.open("https://web.whatsapp.com/", "_blank");
     speak("Membuka Whatsapp...");
-  } else if (message.includes("buka google maps")) {
+  } else if (message.includes("buka maps")) {
     window.open("https://www.google.co.id/maps", "_blank");
     speak("Membuka Google maps...");
   } else if (message.includes("buka spotify")) {
